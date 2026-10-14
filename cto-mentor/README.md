@@ -11,6 +11,6 @@ Type: skill
 ## Adopt it
 Paste this into your agent:
 
-> Read cto-mentor at https://github.com/darrenmoore/darren-skill/tree/main/cto-mentor. Don't install it yet. Read every file in it first, then look at how this repo already works: our skills, hooks, conventions and the way we ship. Tell me what it does, whether it fits here, what it overlaps with, and what you would change so it suits our work. Wait for me to decide before you add or adapt anything.
+> Read cto-mentor at https://github.com/darrenmoore/darren-skill/tree/main/cto-mentor. It was written for someone else's project, so don't install it as it is. Read every file in it, then look at how this project works: our skills, hooks, conventions and the way we ship. Tell me whether it fits, what it overlaps with, and how you would adapt it to this project: what to keep, what to change and what to drop. Wait for me to decide before you add anything.
 
 Needs a folder for the context files and read access to wherever your live numbers sit (CRM, tracker, analytics).

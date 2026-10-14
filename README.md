@@ -5,7 +5,7 @@ Skills, hooks and helper agents I use with coding agents, taken from my own proj
 Don't install them as they are. Have your agent read one, compare it with how your repo works, and adapt what fits. Paste this to review the whole collection:
 
 ```
-Read the collection at https://github.com/darrenmoore/darren-skill. Don't install anything yet. Look at how this repo already works (our skills, hooks, conventions and the way we ship) and tell me which of these would actually help us, which overlap with what we already have, and which to skip. Wait for me to pick before you change anything.
+Read the collection at https://github.com/darrenmoore/darren-skill. These were written for someone else's projects, so don't install any of them as they are. Look at how this project works (our skills, hooks, conventions and the way we ship), then tell me which ones would help us, which overlap with what we already have, and how you would adapt each useful one to fit this project. Wait for me to pick before you change anything.
 ```
 
 ## Planning and tracking work

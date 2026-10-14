@@ -16,6 +16,6 @@ Type: skill, agent
 ## Adopt it
 Paste this into your agent:
 
-> Read shakedown at https://github.com/darrenmoore/darren-skill/tree/main/shakedown. Don't install it yet. Read every file in it first, then look at how this repo already works: our skills, hooks, conventions and the way we ship. Tell me what it does, whether it fits here, what it overlaps with, and what you would change so it suits our work. Wait for me to decide before you add or adapt anything.
+> Read shakedown at https://github.com/darrenmoore/darren-skill/tree/main/shakedown. It was written for someone else's project, so don't install it as it is. Read every file in it, then look at how this project works: our skills, hooks, conventions and the way we ship. Tell me whether it fits, what it overlaps with, and how you would adapt it to this project: what to keep, what to change and what to drop. Wait for me to decide before you add anything.
 
 Needs an agent that can dispatch parallel subagents, your own standard list and lane briefs, an automated checks command, and a folder for review runs.

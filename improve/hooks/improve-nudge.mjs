@@ -64,11 +64,13 @@ const SKIP_RE = `(${SKIP_TYPES.join('|')})(\\([^)]*\\))?!?:`;
 const SKIP_MSG = new RegExp(String.raw`-m\s+["'$(]*\s*(cat\s+<<-?'?\w+'?\s*)?\s*` + SKIP_RE, 'i');
 const SKIP_SUBJECT = new RegExp(`^${SKIP_RE}`, 'i');
 const IMPROVE_CMD = `<command-name>/${SKILL}</command-name>`;
+// PRODUCTION patterns count only at the start of a statement too, so `grep 'git push'` doesn't fire.
+const PRODUCTION_AT_START = PRODUCTION.map((re) => new RegExp(`${START}(?:${re.source})`, re.flags));
 
 export function classify(command) {
   if (typeof command !== 'string') return null;
   if (GIT_COMMIT.test(command)) return SKIP_MSG.test(command) ? null : 'commit';
-  return PRODUCTION.some((re) => re.test(command)) ? 'production' : null;
+  return PRODUCTION_AT_START.some((re) => re.test(command)) ? 'production' : null;
 }
 
 export function scanTranscript(text) {

@@ -22,6 +22,6 @@ Type: skill
 ## Adopt it
 Paste this into your agent:
 
-> Read agent-craft at https://github.com/darrenmoore/darren-skill/tree/main/agent-craft. Don't install it yet. Read every file in it first, then look at how this repo already works: our skills, hooks, conventions and the way we ship. Tell me what it does, whether it fits here, what it overlaps with, and what you would change so it suits our work. Wait for me to decide before you add or adapt anything.
+> Read agent-craft at https://github.com/darrenmoore/darren-skill/tree/main/agent-craft. It was written for someone else's project, so don't install it as it is. Read every file in it, then look at how this project works: our skills, hooks, conventions and the way we ship. Tell me whether it fits, what it overlaps with, and how you would adapt it to this project: what to keep, what to change and what to drop. Wait for me to decide before you add anything.
 
 Pairs with agent-fault for the step-by-step diagnosis of one bad turn.
